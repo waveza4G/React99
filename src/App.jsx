@@ -25,20 +25,16 @@ export default function App() {
     alignItems: "center",
     height: "100vh",
     width: "100vw",
-    backgroundColor: "#f0f4f8", // สีพื้นหลังอ่อน ๆ
     margin: 0
   };
 
   const cardStyle = {
-    border: "2px solid #3498db", // ขอบสีน้ำเงินสวยงาม
-    borderRadius: "15px", // ขอบโค้งมน
+    border: "2px dashed",
     padding: "20px",
     width: "500px",
     height: "500px",
     position: "relative",
-    overflow: "hidden",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // เพิ่มเงาให้การ์ดดูมีมิติ
-    backgroundColor: "white" // พื้นหลังสีขาว
+    overflow: "hidden"
   };
 
   const imageStyle = {
@@ -50,18 +46,14 @@ export default function App() {
     position: "absolute",
     top: "50%",
     left: "50%",
-    transform: "translate(-50%, -50%)",
-    transition: "all 0.3s ease-in-out" // แอนิเมชันนุ่มนวลเมื่อขนาดภาพเปลี่ยน
+    transform: "translate(-50%, -50%)"
   };
 
   const buttonImageStyle = {
     width: "100px",
     height: "100px",
     cursor: "pointer",
-    margin: "10px",
-    borderRadius: "50%", // ทำปุ่มเป็นวงกลม
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // เพิ่มเงาให้ปุ่ม
-    transition: "transform 0.2s ease-in-out", // เพิ่มแอนิเมชันให้ปุ่มเมื่อกด
+    margin: "10px"
   };
 
   const buttonContainerStyle = {
@@ -72,12 +64,10 @@ export default function App() {
   };
 
   const buttonText = {
-    fontSize: "16px",
-    marginTop: "10px",
+    color: "#34495e",
+    fontSize: "18px",
     cursor: "pointer",
-    color: "#3498db", // สีฟ้าให้เข้ากับขอบ
-    fontWeight: "bold", // ทำให้ข้อความเด่นขึ้น
-    textTransform: "uppercase" // ข้อความทั้งหมดเป็นตัวพิมพ์ใหญ่
+    marginTop: "10px"
   };
 
   return (
